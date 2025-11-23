@@ -3,7 +3,7 @@
 int potega(int a, int b) {
     int wynik = 1;
     for (int i = 1; i <= b; i++) {
-        wynik *= a;  // Mnożymy wynik przez a w każdej iteracji
+        wynik *= a;  
     }
     return wynik;
 }
